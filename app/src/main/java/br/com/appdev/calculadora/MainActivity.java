@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void btnSumOnClick(View view) {
 
-        //Teste
         InputMethodManager inputMethodManager =
                 (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
         inputMethodManager.hideSoftInputFromWindow(view.getWindowToken(), 0);
